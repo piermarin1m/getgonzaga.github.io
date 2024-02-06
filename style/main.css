@@ -389,26 +389,22 @@ hr {
       background: #fff url('../img/eagles.png');
       background-size: cover;
       font-size: 30px; 
-  }
-      
-  @media screen and (max-width: 520px) {
+  }      
+    @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
           font-size: 10px; 
       }
-  }
-      
+  }  
   .tile.tile-extreme .tile-inner {
       background: #fff url('../img/eagle.png');
       background-size: cover;
-      font-size: 30px; 
-  }
-      
-  @media screen and (max-width: 520px) {
+      font-size: 25px; 
+  }   
+    @media screen and (max-width: 520px) {
       .tile.tile-extreme .tile-inner {
           font-size: 10px;
       }
   }
-      
 
         
 @-webkit-keyframes appear {
