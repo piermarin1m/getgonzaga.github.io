@@ -398,7 +398,7 @@ hr {
   }
       
   .tile.tile-extreme .tile-inner {
-      background: #fff url('../img/eagle.jpeg');
+      background: #fff url('../img/eagle.png');
       background-size: cover;
       font-size: 30px; /* Adjust this value as needed */
   }
