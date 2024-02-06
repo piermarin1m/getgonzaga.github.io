@@ -386,13 +386,19 @@ hr {
       .tile.tile-2048 .tile-inner {
         font-size: 15px; } }
   .tile.tile-super .tile-inner {
-    background: #fff url('../img/eagles.png');
+    background: #fff url('../img/egales.png');
     background-size: cover;
     font-size: 30px; }
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
         font-size: 10px; } }
-
+    .tile.tile-super .tile-inner {
+      background: #fff url('../img/eagle.jpeg');
+      background-size: cover;
+        font-size: 30px; }
+        @media screen and (max-width: 520px) {
+          .tile.tile-super .tile-inner {
+          font-size: 10px; } }
 
         
 @-webkit-keyframes appear {
