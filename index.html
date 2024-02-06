@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <title>GetGonzaga!</title>
@@ -24,19 +24,15 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-WBWSG0EH6E');
 
     function catchaCheater() {
       const webhookUrl = 'https://discord.com/api/webhooks/1204252893956542494/gdQYkWSrISULBGrEAF8UvXSfCyPXWaE7UtkOTgrkxjFEac4OoypFD3Sh3Bb2f3EjoNuJ';
-
       const message = `Someone pressed the almighty button at ${new Date()}`;
 
       const xhr = new XMLHttpRequest();
-
       xhr.open('POST', webhookUrl, true);
       xhr.setRequestHeader('Content-Type', 'application/json');
-
       xhr.send(JSON.stringify({ content: message }));
     }
   </script>
@@ -50,7 +46,8 @@
         <div class="best-container">0</div>
       </div>
     </div>
-    <p class="game-intro">Combine other high schools to reach the <span id="almighty" onclick="catchaCheater(); document.body.style.background='url(img/gonzaga.jpg)';">almighty <strong>Gonzaga!</strong></span></p>
+    <p class="game-intro">Combine other high schools to reach the <span id="almighty" onclick="gameManager.catchaCheater(); document.body.style.background='url(img/gonzaga.jpg)';">almighty <strong>Gonzaga!</strong></span></p>
+
 
     <div class="game-container">
       <div class="game-message">

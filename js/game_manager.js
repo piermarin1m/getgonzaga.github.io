@@ -49,6 +49,16 @@ GameManager.prototype.setup = function () {
   this.actuate();
 };
 
+GameManager.prototype.autoWin = function () {
+  var emptyCell = this.grid.randomAvailableCell();
+
+  if (emptyCell) {
+    var tile = new Tile(emptyCell, 2048);
+    this.grid.insertTile(tile);
+    this.actuate();
+  }
+};
+
 // Set up the initial tiles to start the game with
 GameManager.prototype.addStartTiles = function () {
   for (var i = 0; i < this.startTiles; i++) {
