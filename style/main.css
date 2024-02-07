@@ -83,7 +83,7 @@ h1.title {
   .score-container .score-addition, .best-container .score-addition {
     position: absolute;
     right: 30px;
-    color: purple;
+    color: red;
     font-size: 25px;
     line-height: 25px;
     font-weight: bold;
@@ -123,7 +123,7 @@ hr {
 
 .container {
   padding: 80px 150px;
-  background: purple;
+  background: #fff;
   border: 1px solid #696968;
   border-top: 4px solid #9d3c3c;
   border-radius: 0px 0px 5px 5px;
@@ -176,7 +176,7 @@ hr {
     right: 0;
     bottom: 0;
     left: 0;
-    background: black;
+    background: rgba(238, 228, 218, 0.5);
     z-index: 100;
     text-align: center;
     -webkit-animation: fade-in 800ms ease 1200ms;
@@ -388,17 +388,23 @@ hr {
     .tile.tile-super .tile-inner {
       background: #fff url('../img/eagles.png');
       background-size: cover;
-      font-size: 30px; }      
+      font-size: 30px; 
+  }      
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
-          font-size: 10px; } }  
-    .tile.tile-extreme .tile-inner {
+          font-size: 10px; 
+      }
+  }  
+  .tile.tile-extreme .tile-inner {
       background: #fff url('../img/eagle.png');
       background-size: cover;
-      font-size: 25px; }   
+      font-size: 25px; 
+  }   
     @media screen and (max-width: 520px) {
       .tile.tile-extreme .tile-inner {
-          font-size: 10px; } }
+          font-size: 10px;
+      }
+  }
         
 @-webkit-keyframes appear {
   0% {
