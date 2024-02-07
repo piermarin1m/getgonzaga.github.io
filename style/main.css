@@ -390,21 +390,21 @@ hr {
       background-size: cover;
       font-size: 30px; 
   }      
-    @media screen and (max-width: 520px) {
+    @media screen and (max-width: 521px) {
       .tile.tile-super .tile-inner {
-          font-size: 10px; 
+          font-size: 11px; 
       }
   }  
-  .tile.tile-extreme .tile-inner {
-      background: #fff url('../img/eagle.png');
-      background-size: cover;
-      font-size: 25px; 
-  }   
-    @media screen and (max-width: 520px) {
-      .tile.tile-extreme .tile-inner {
-          font-size: 10px;
-      }
-  }
+  .tile.tile-supa .tile-inner {
+    background: #fff url('../img/eagle.png');
+    background-size: cover;
+    font-size: 31px; 
+}      
+  @media screen and (max-width: 520px) {
+    .tile.tile-supa .tile-inner {
+        font-size: 10px; 
+    }
+}  
         
 @-webkit-keyframes appear {
   0% {
