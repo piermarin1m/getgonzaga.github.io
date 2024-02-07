@@ -60,7 +60,7 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #8A8B8C;
+  background: purple;
   padding: 15px 25px;
   font-size: 20px;
   height: 25px;
@@ -79,7 +79,7 @@ h1.title {
     font-size: 13px;
     line-height: 13px;
     text-align: center;
-    color: #eee4da; }
+    color: purple; }
   .score-container .score-addition, .best-container .score-addition {
     position: absolute;
     right: 30px;
@@ -123,7 +123,7 @@ hr {
 
 .container {
   padding: 80px 150px;
-  background: #fff;
+  background: purple;
   border: 1px solid #696968;
   border-top: 4px solid #9d3c3c;
   border-radius: 0px 0px 5px 5px;
@@ -200,7 +200,7 @@ hr {
       border-radius: 3px;
       padding: 0 20px;
       text-decoration: none;
-      color: #f9f6f2;
+      color: purple;
       height: 40px;
       line-height: 42px;
       margin-left: 9px; }
@@ -233,7 +233,7 @@ hr {
   margin-right: 15px;
   float: left;
   border-radius: 3px;
-  background: #C2C0BF; }
+  background: purple; }
   .grid-cell:last-child {
     margin-right: 0; }
 
@@ -390,21 +390,21 @@ hr {
       background-size: cover;
       font-size: 30px; 
   }      
-    @media screen and (max-width: 521px) {
+    @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
-          font-size: 11px; 
+          font-size: 10px; 
       }
   }  
-  .tile.tile-supa .tile-inner {
-    background: #fff url('../img/eagle.png');
-    background-size: cover;
-    font-size: 31px; 
-}      
-  @media screen and (max-width: 520px) {
-    .tile.tile-supa .tile-inner {
-        font-size: 10px; 
-    }
-}  
+  .tile.tile-extreme .tile-inner {
+      background: #fff url('../img/eagle.png');
+      background-size: cover;
+      font-size: 25px; 
+  }   
+    @media screen and (max-width: 520px) {
+      .tile.tile-extreme .tile-inner {
+          font-size: 10px;
+      }
+  }
         
 @-webkit-keyframes appear {
   0% {
